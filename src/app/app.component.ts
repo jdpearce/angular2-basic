@@ -8,6 +8,6 @@ export class AppComponent {
   message: string;
 
   constructor() {
-    this.message = "Hello World!";
+    this.message = "Hello, World!";
   }
 }
