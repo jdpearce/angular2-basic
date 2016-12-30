@@ -9,9 +9,9 @@ import { AppComponent } from './app.component';
  * `AppModule` is the main entry point into Angular2's bootstraping process
  */
 @NgModule({
-  bootstrap: [ AppComponent ],
+  imports: [ BrowserModule ],
   declarations: [ AppComponent ],
-  imports: [ BrowserModule ]
+  bootstrap: [ AppComponent ]
 })
 export class AppModule {
   constructor(public appRef: ApplicationRef) {}
