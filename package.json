@@ -1,0 +1,27 @@
+{
+  "name": "angular2-project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc && webpack",
+    "server": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^2.4.1",
+    "@angular/compiler": "^2.4.1",
+    "@angular/core": "^2.4.1",
+    "@angular/platform-browser": "^2.4.1",
+    "@angular/platform-browser-dynamic": "^2.4.1",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.0.2",
+    "zone.js": "^0.7.4"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2",
+    "typescript": "^2.1.4",
+    "webpack": "^1.14.0"
+  }
+}
