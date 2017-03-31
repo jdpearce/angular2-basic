@@ -3,10 +3,11 @@
 A minimalist angular2 project created from scratch. No bells or whistles.
 
 The intent was to create a project with as few moving parts as possible so it would be obvious what was necessary 
-and that what it takes to add new features such as AOT compilation, tree-shaking and a smoother build pipeline 
-could be isolated and understood more easily.
+and that what it takes to add new features.
 
-Current build process is intentionally clunky.
+This version includes AoT compilation with the the [@ultimate/aot-loader](https://github.com/UltimateAngular/aot-loader).
+
+Current build process is no longer clunky!
 
 To install :
 
@@ -17,11 +18,3 @@ To install :
 To build :
 
     npm run build
-    cp src/index.html build
-    npm run server
-    
-Or use this if you're on Windows :
-
-    npm run build
-    copy src\index.html build
-    npm run server
