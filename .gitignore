@@ -3,3 +3,6 @@
 node_modules
 out-tsc
 build
+
+# files
+.DS_Store
